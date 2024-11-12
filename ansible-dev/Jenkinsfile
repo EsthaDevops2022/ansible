@@ -23,7 +23,7 @@ pipeline{
                 '.', remoteDirectorySDF: false, removePrefix: '', \
                 sourceFiles: 'ansible-dev_${BUILD_ID.}zip')], usePromotionTimestamp: false, \
                 useWorkspaceInPromotion: false, verbose: false)])
-
+            }
     
         }   
     }
